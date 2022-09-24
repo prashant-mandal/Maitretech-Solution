@@ -1,0 +1,26 @@
+.nav-main ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.nav-main ul li p {
+  color: #ffff;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: 0.3s all ease-in-out;
+}
+.nav-main ul li p:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.nav-main p.index {
+  display: block;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: -0.1rem;
+  font-weight: bold;
+}

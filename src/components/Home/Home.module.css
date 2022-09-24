@@ -1,0 +1,19 @@
+.verticle-middle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  padding: 2rem 0;
+}
+button.btn {
+  text-align: center;
+  color: #fff;
+  border: 1px solid #3f51b5;
+  background-color: #3f51b5;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
